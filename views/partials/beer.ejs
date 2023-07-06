@@ -1,0 +1,9 @@
+<div class="beer-card">
+  <!-- <img src="<%= beer.image_url %>" alt="<%= beer.name %>" /> -->
+  <a href="/beers/<%= beer.id %>">
+    <img src="<%= beer.image_url %>" alt="<%= beer.name %>" />
+    <h2><%= beer.name %></h2>
+  </a>
+  <p><%= beer.description %></p>
+  <p><em><%= beer.tagline %></em></p>
+</div>
